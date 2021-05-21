@@ -57,7 +57,7 @@ export const BookMarksIcon = () => {
   );
 };
 
-export const List = () => {
+export const ListsIcon = () => {
   return (
     <Svg className="w-7 h-7">
       <g>
