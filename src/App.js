@@ -1,10 +1,16 @@
 import './App.css';
+import Container from './layout/Container';
+import Content from './layout/Content';
+import Sidebar from './layout/Sidebar';
+import Widgets from './layout/Widgets';
 
 function App() {
   return (
-    <div className="App">
-      App
-    </div>
+    <Container>
+      <Sidebar />
+      <Content />
+      <Widgets />
+    </Container>
   );
 }
 
