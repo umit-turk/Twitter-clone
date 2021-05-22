@@ -19,7 +19,7 @@ const Widgets = () => {
             screenName: "reactjs",
           }}
           options={{
-            height: "400",
+            height: "1000",
           }}
         />
       </div>
